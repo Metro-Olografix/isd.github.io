@@ -1,0 +1,800 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<META name="Author" content="Loris D'Emilio">
+<META name="Description" content="Le Faq del newsgroup it.sesso.discussioni">
+<META name="KeyWords" content="FAQ, sesso, newsgroup, it.sesso.discussioni, sessualità, rapporti sessuali, preservativo, spirale, diaframma, pillola, sterilità, sterilizzazione, gravidanza, allattamento, menopausa, andropausa, mestruazioni,  circoncisione, malattie, malattie sessualmente trasmissibili, HIV, aids, epatite, candida, gonorrea, organi genitali, organi genitali maschili, organi genitali femminili,pene, vagina, ano, glande, grandi labbra, piccole labbra, clitoride, preliminari, perversioni sessuali, seduzione, racconti, omosessualità, bisessualità, billings, ogino, temperatura basale, profilattico, condom, sesso anale, sesso orale, fellatio, cunnilinguus">
+<META name="robots" content="index,follow">
+<META name="revisit-after" content="15 DAYS">
+<META name="language" content="it">
+<!-- Codice scaricato gratuitamente da HTML.it, il sito italiano sul Web publishing
+                                   http://www.html.it -->
+
+<STYLE TYPE="text/css">
+<!--
+H3 {font-family: Arial,Helvetica;font-size:10pt;font-weight:bold;}
+DIV,TD{font-family:Arial,Verdana,Helvetica;font-size:10pt;}
+SPAN SMALL{font-size:80%;}
+SPAN.times{font-family:Times New Roman,Times,serif;font-size:100%;}
+A:link {text-decoration:none}
+A:visited {text-decoration:none}
+A:hover {color:yellow; background:blue}
+-->
+</STYLE>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+var bV=parseInt(navigator.appVersion);
+NS4=(document.layers)?true:false;
+IE4=(document.all)?true:false;
+ver4=(NS4 || IE4)?true:false;
+if (document.images) {
+arImLoad=new Array ("../immagini/triUp2.gif");
+arImList=new Array ();
+for (counter in arImLoad) {
+arImList[counter]=new Image();
+arImList[counter].src=arImLoad[counter] + ".gif";
+}}
+function expandIt(){return}
+function expandAll(){return}
+//-->
+</SCRIPT>
+<SCRIPT LANGUAGE="JavaScript1.2">
+<!--
+isExpanded=false;
+function reDo(){window.location.reload()}
+function getIndex(el) {
+ind=null;
+for (i=0; i<document.layers.length; i++) {
+whichEl=document.layers[i];
+if (whichEl.id==el) {
+ind=i;
+break;
+}
+}
+return ind;
+}
+function arrange() {
+nextY=document.layers[firstInd].pageY + document.layers[firstInd].document.height-10;
+for (i=firstInd+1; i<document.layers.length; i++) {
+whichEl=document.layers[i];
+if (whichEl.visibility != "hide") {
+whichEl.pageY=nextY;
+nextY += whichEl.document.height-10;
+}
+}
+}
+function initIt(){
+if (NS4) {scrollTo(0,pageYOffset-30)
+for (i=0; i<document.layers.length; i++) {
+whichEl=document.layers[i];
+if (whichEl.id.indexOf("Child") != -1) {
+whichEl.visibility="hide";
+whichEl.isExpanded=false;
+}
+}
+arrange();
+setTimeout("window.onresize=reDo",1000)
+}
+else {
+tempColl=document.all.tags("DIV");
+for (i=0; i<tempColl.length; i++) {
+if (tempColl(i).className == "child") {
+tempColl(i).style.display="none";
+tempColl(i).isExpanded=false;
+}
+}
+}
+}
+function expandIt(el) {
+if (!ver4) return;
+if (IE4) {expandIE(el)} else {expandNS(el)}
+}
+function expandIE(el) { 
+whichEl=eval(el + "Child");
+whichIm=event.srcElement;
+if (whichEl.style.display == "none") {
+whichEl.style.display="block";
+whichEl.isExpanded=true;
+whichIm.src="../immagini/triUp2.gif";
+}
+else {
+whichEl.style.display="none";
+whichEl.isExpanded=false;
+whichIm.src="../immagini/triDown2.gif";
+}
+}
+function expandNS(el) {
+whichEl=eval("document." + el + "Child");
+whichIm=eval("document." + el + "Parent.document.images['imEx']");
+if (whichEl.visibility == "hide") {
+whichEl.visibility="show";
+whichEl.isExpanded=true;
+whichIm.src="../immagini/triUp2.gif";
+}
+else {
+whichEl.visibility="hide";
+whichEl.isExpanded=false;
+whichIm.src="../immagini/triDown2.gif";
+}
+arrange();
+}
+function showAll() {
+for (i=firstInd; i<document.layers.length; i++) {
+whichEl=document.layers[i];
+whichEl.visibility="show";
+}
+}
+function expandAll(isBot) {
+newSrc=(isExpanded)?"../immagini/triDown2.gif":"../immagini/triUp2.gif";
+if (NS4) {
+document.images["imEx"].src=newSrc;
+for (i=firstInd; i<document.layers.length; i++) {
+whichEl=document.layers[i];
+if (whichEl.id.indexOf("Parent") != -1) {
+whichEl.document.images["imEx"].src=newSrc;
+}
+if (whichEl.id.indexOf("Child") != -1) {
+whichEl.visibility=(isExpanded)?"hide":"show";
+whichEl.isExpanded=(isExpanded)?false:true;
+}
+}
+arrange();
+if (isBot && isExpanded) scrollTo(0,document.layers[firstInd].pageY);
+}
+else {
+divColl=document.all.tags("DIV");
+for (i=0; i<divColl.length; i++) {
+if (divColl(i).className == "child") {
+divColl(i).style.display=(isExpanded)?"none":"block";
+divColl(i).isExpanded=(isExpanded)?false:true;
+}
+}
+imColl=document.images.item("imEx");
+for (i=0; i<imColl.length; i++) {
+imColl(i).src=newSrc;
+}
+}
+isExpanded=!isExpanded;
+}
+with (document) {
+write("<STYLE TYPE='text/css'>");
+write(".parent {");
+if (NS4) {write("position:absolute; visibility:hidden;")};
+if (IE4) {write("margin-top:-10;")};
+write("margin-left:35;");
+write("color:#006");
+write("}");
+write(".child {");
+if (NS4) {write("position:absolute; visibility:hidden;")};
+if (IE4) {write("display:none;")};
+write("margin-left:50;");
+write("}");
+write(".other {");
+if (NS4) {write("position:absolute; visibility:hidden;")};
+write("margin-left:25;");
+write("}");
+write("</STYLE>");
+}
+function linkIt(whichEl, whichHref) {
+lay=(NS4)?eval("document."+whichEl+"Child"):eval(whichEl+"Child");
+if (!lay.isExpanded) expandIt(whichEl);
+nlay=(NS4)?lay.document.images[whichHref]:document.images[whichHref];
+if (NS4){
+sY=nlay.y+lay.pageY-20
+window.scrollTo(0,sY);
+}else{nlay.scrollIntoView();scroll(0,document.body.scrollTop-20);
+//alert(nlay.parentElement.tagName);
+nlay.parentElement.style.backgroundColor="#FF99FF";setTimeout("nlay.parentElement.style.backgroundColor='white'",1000);}
+}
+window.onload=initIt;
+//-->
+</SCRIPT>
+</head>
+<body TEXT="#000000" LINK="#0000FF" VLINK="#FF3333" ALINK="#FF3333" background="/immagini/sfondo_isd.jpg">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%" align="center" bgcolor="#0000FF"><font face="Verdana" size="3"
+    color="#FFFFFF"><strong>Le FAQ&nbsp;</strong></font></td>
+  </tr>
+</table>
+<!--=== HEADER ===-->
+<!-- START AD -->
+<SCRIPT LANGUAGE="JavaScript1.2">
+<!--
+if(!ver4)document.write("</BLOCKQUOTE>");
+//-->
+</SCRIPT>
+<P STYLE="margin-left:25;font-family:Arial,sans-serif;font-size:10pt;"><A 
+HREF="#" onClick="expandAll(false); return false"><IMG
+NAME="imEx" SRC="../immagini/triDown2.gif" WIDTH=12 HEIGHT=12 BORDER=0 ALT="Expand/Collapse All"></A> 
+  <b>Mostra/Nascondi tutti</b></P>
+
+<DIV ID="elOneParent" CLASS=parent>
+<H3><A HREF="#" onClick="expandIt('elOne'); return false"><IMG
+NAME="imEx" SRC="../immagini/triDown2.gif" WIDTH=12 HEIGHT=12 BORDER=0 ALT="Expand/Collapse Item"></A>
+Introduzione</H3>
+</DIV>
+ 
+<DIV ID="elOneChild" CLASS=child>
+          
+       <b><a href="faq_intro.htm" >Introduzione</a></b>
+     <ul type="DISC"><li><a href="faq_intro.htm#distribuzione" >Distribuzione</a> 
+    <li><a href="../info/isdabout.htm#copyright" >Diritto 
+          di copia</a>         <li><a href="faq_intro.htm#ringraziamenti" >Ringraziamenti</a> 
+          
+        <li><a href="faq_intro.htm#storia" >Revisioni
+          </a>  
+        <li><a href="faq_intro.htm#bibliografia" >Bibliografia</a> 
+         
+        <li><a href="../links.html" >Link utili</a></ul>
+      </DIV>
+<DIV ID="elTwoParent" CLASS=parent>
+<H3><A HREF="#" onClick="expandIt('elTwo'); return false"><IMG
+NAME="imEx" SRC="../immagini/triDown2.gif" WIDTH=12 HEIGHT=12 BORDER=0 ALT="Expand/Collapse Item"></A>
+ Corteggiamento</H3>
+</DIV>
+<DIV ID="elTwoChild" CLASS=child><ul><li><B>Maschile</B>
+<ul><li><a HREF="faq_cort.htm" >Come conoscere 
+            una ragazza</a> </ul>
+<li><B>Femminile</B>
+<ul><li><b><a HREF="faq_uomo-donna.htm" >Il rapporto 
+        uomo-donna</a></b>  
+        <ul>
+          <li>
+          <a HREF="faq_intimita'.htm" >L'intimità</a> 
+         
+          <li><a HREF="faq_tradimento.htm" >Il tradimento</a> </ul></ul>
+       <li><b>Corteggiamento Gay</b> 
+        <li>        <b>Corteggiamento Lesbico</b>  
+        <li><b><a HREF="faq_seduzione.htm" >La seduzione</a></b> 
+          
+          <ul TYPE="DISC">
+            
+      <li><a HREF="faq_focus01.htm" >Cos'è la bellezza</a> 
+      <li> <a HREF="faq_focus22.htm" >Il più potente organo sessuale: 
+        il cervello</a> 
+      <li><a href="faq_seduzione_corpo.htm" >La seduzione del corpo</a> 
+      <li><a href="faq_seduzione_cucina.htm">La seduzione in cucina</a> 
+    </ul></ul>
+        
+      
+</DIV>
+
+<DIV ID="elThreeParent" CLASS=parent>
+<H3><A HREF="#" onClick="expandIt('elThree'); return false"><IMG
+NAME="imEx" SRC="../immagini/triDown2.gif" WIDTH=12 HEIGHT=12 BORDER=0 ALT="Expand/Collapse Item"></A>
+ Apparati sessuali</H3>
+</DIV>
+<DIV ID="elThreeChild" CLASS=child>
+<ul><li><a href="faq_appsexmas.htm" >L'apparato sessuale maschile</a> 
+          <ul TYPE="DISC">
+            <li><a  href="faq_appsexmas.htm#esterni">Gli organi genitali 
+              esterni</a> 
+            <li><a  href="faq_appsexmas.htm#interni">Gli organi genitali 
+              interni</a> 
+          </ul>
+        <li><a  href="faq_appsexfem.htm">L'apparato sessuale femminile</a> 
+          <ul TYPE="DISC">
+            <li><a  href="faq_appsexfem.htm#esterni">Gli organi genitali 
+              esterni</a> 
+            <li><a  href="faq_appsexfem.htm#interni">Gli organi genitali 
+              interni</a> 
+            <li><a  href="faq_appsexfem.htm#mammelle">Le mammelle</a> 
+          </ul></ul>
+      </DIV>
+ <DIV ID="elFourParent" CLASS=parent>
+<H3><A HREF="#" onClick="expandIt('elFour'); return false"><IMG
+NAME="imEx" SRC="../immagini/triDown2.gif" WIDTH=12 HEIGHT=12 BORDER=0 ALT="Expand/Collapse Item"></A>
+Sviluppo Sessuale</H3>
+</DIV>
+<DIV ID="elFourChild" CLASS=child>
+<ul><li><a href="faq_andropausa.htm">Andropausa</a> 
+      <li><a href="faq_menopausa.htm">Menopausa</a> 
+      </ul>
+      </DIV>
+        
+  <DIV ID="elFiveParent" CLASS=parent>
+<H3><A HREF="#" onClick="expandIt('elFive'); return false"><IMG
+NAME="imEx" SRC="../immagini/triDown2.gif" WIDTH=12 HEIGHT=12 BORDER=0 ALT="Expand/Collapse Item"></A>
+Preliminari</H3>
+</DIV>
+<DIV ID="elFiveChild" CLASS=child>
+<ul TYPE="DISC"><li><b><a HREF="faq_preliminari.htm" >Introduzione</a></b> 
+        <li><a href="faq_petting.htm">Il Petting</a> 
+        <li><b>Il Sesso orale</b> 
+          <ul TYPE="DISC">
+            <li><a HREF="faq_fellatio.htm" >Fellatio</a> 
+              <ul TYPE="DISC">
+                <li><a href="faq_fellatio.htm#dom1" >Domanda: Ingerire 
+                  sperma fa male?</a> 
+                <li><a href="faq_fellatio.htm#dom2" >Domanda: Si 
+                  trasmettono malattie con il sesso orale?</a> 
+              </ul>
+            <li><a HREF="faq_cunnilingus.htm" >Cunnilinguus</a> 
+          </ul>
+      </ul>
+      <ul>  
+        <li><b>Tecniche per far crescere l'eccitazione</b> 
+          <ul TYPE="DISC">
+            <li><a href="faq_kegel.htm" >Per lei: L'esercizio di 
+              Kegel</a> 
+            <li><a href="faq_pubococcigeo.htm" >Per lui: L'esercizio 
+              del pubococcigeo</a> 
+            <li><a href="faq_orientali.htm" >Tecniche orientali</a> 
+              <ul>
+                <li><a href="faq_rifless.htm">La riflessologia del pene</a></li>
+            </ul>
+        </ul></ul>
+        </DIV>          
+
+<DIV ID="elSixParent" CLASS=parent>
+<H3><A HREF="#" onClick="expandIt('elSix'); return false"><IMG
+NAME="imEx" SRC="../immagini/triDown2.gif" WIDTH=12 HEIGHT=12 BORDER=0 ALT="Expand/Collapse Item"></A>
+ Masturbazione</H3>
+</DIV>        
+<DIV ID="elSixChild" CLASS=child>
+        <ul>
+          
+        <li><a href="faq_mastmasch.htm" ><b>Maschile</b></a> &nbsp; 
+        <li><b><a HREF="faq_mastfemm.htm" >Femminile</a></b> 
+      </ul>
+        
+
+</DIV>
+
+<DIV ID="elSevenParent" CLASS=parent>
+<H3><A HREF="#" onClick="expandIt('elSeven'); return false"><IMG
+NAME="imEx" SRC="../immagini/triDown2.gif" WIDTH=12 HEIGHT=12 BORDER=0 ALT="Expand/Collapse Item"></A>
+Rapporto Sessuale</H3>
+</DIV>         
+  
+<DIV ID="elSevenChild" CLASS=child>   <ul TYPE="DISC"><li><b>La prima volta</b> 
+   
+        <li><a href="faq_posizioni.htm" ><b>Le posizioni</b></a> 
+        <li><b>Cosa fare e non fare dopo </b> 
+        <li><b>Rieccitazione</b> 
+        <li><b><a HREF="faq_anal.htm" >Il sesso anale</a></b> 
+          <ul TYPE="DISC">
+            <li><a HREF="faq_guida_anal.htm" >Guida al sesso anale</a>&nbsp; 
+            <li><a HREF="faq_anal_creme.htm" >Le creme</a> 
+            <li><a HREF="faq_anal.htm#1volta" >la prima volta msg1</a> 
+            <li><a HREF="faq_anal.htm#1volta2" >la prima volta msg2</a> 
+            <li><a HREF="faq_anal.htm#due_cent" >I miei due centesimi 
+              sul sesso anale</a>&nbsp; </ul>
+      </ul>
+        </DIV>
+
+<DIV ID="elEightParent" CLASS=parent>
+<H3><A HREF="#" onClick="expandIt('elEight'); return false"><IMG
+NAME="imEx" SRC="../immagini/triDown2.gif" WIDTH=12 HEIGHT=12 BORDER=0 ALT="Expand/Collapse Item"></A>
+Orgasmo</H3>
+</DIV>        
+<DIV ID="elEightChild" CLASS=child>
+    
+  <p><b><a HREF="faq_orgasmo.htm" >Orgasmo</a></b> 
+  <ul>
+          
+        <li><b><a HREF="faq_rispsex.htm" >La risposta sessuale al 
+          maschile e al femminile</a></b> 
+          <ul TYPE="DISC">
+              
+            <li><a HREF="faq_rispsex.htm#desiderio" >Desiderio</a> 
+            <li><a HREF="faq_rispsex.htm#eccitazione" >Eccitazione</a> 
+            <li><a HREF="faq_rispsex.htm#orgasmo" >Orgasmo</a> 
+            <li><a HREF="faq_rispsex.htm#età" >Età</a> 
+          </ul>
+          
+        <li><b><a HREF="faq_orgfemmantro.htm" >Antropologia dell'orgasmo 
+          femminile</a></b> 
+      </ul>
+        
+         
+ 
+        </DIV>
+<DIV ID="elNineParent" CLASS=parent>
+<H3><A HREF="#" onClick="expandIt('elNine'); return false"><IMG
+NAME="imEx" SRC="../immagini/triDown2.gif" WIDTH=12 HEIGHT=12 BORDER=0 ALT="Expand/Collapse Item"></A>
+Metodi anticoncezionali</H3>
+</DIV>          
+<DIV ID="elNineChild" CLASS=child><p></p>
+        <ul TYPE="DISC">
+          
+        <li><b><a HREF="faq_contraccezione.htm" >Introduzione</a></b> 
+          <ul TYPE="DISC">
+              
+            <li><a HREF="faq_contraccezione.htm#paure" >Resistenze 
+              e paure</a> 
+            <li><a HREF="faq_contraccezione.htm#scelta" >Scelta del 
+              metodo</a> 
+            <li><a HREF="faq_contraccezione.htm#efficacia" >Efficacia 
+              del metodo</a> 
+            <li><a href="faq_contraccezione.htm#il_punto" >Facciamo 
+              il punto sulla contraccezione</a> 
+          </ul>
+          
+        <li><b><a HREF="faq_metodimec.htm" >I metodi meccanici</a></b> 
+          <ul TYPE="DISC">
+              
+            <li><a HREF="faq_profilattico.htm" >Il profilattico</a> 
+              <ul TYPE="DISC">
+                  
+                <li><a HREF="faq_usoprofilattico.htm" >Instruzioni 
+                  sull'uso del profilattico</a> 
+              </ul>
+              
+            <li><a href="faq_presfemm.htm" >Il preservativo femminile</a> 
+            <li><a HREF="faq_diaframma.htm" >Il diaframma</a> 
+            <li><a HREF="faq_iud.htm" >La spirale (IUD)</a> 
+          </ul>
+        </ul>
+        <ul TYPE="DISC">
+          
+        <li><b><a HREF="faq_pillola.htm#parte2" >I metodi orali: 
+          vantaggi e svantaggi</a></b> 
+          <ul TYPE="DISC">
+              
+            <li><a HREF="faq_pillola.htm" >La pillola</a> 
+            <li><a HREF="faq_pillola2.htm" >La &quot;pillola del 
+              giorno dopo&quot;</a> 
+            <li><a HREF="faq_pillola3.htm" >La pillola abortiva</a> 
+            <li><a HREF="faq_pillola4.htm" >La pillola maschile</a> 
+            <li><a HREF="faq_pillola6.htm" >Pillola di Solo Progestinico 
+              (Mini-Pillola)</a> 
+            <li><a href="faq_fedra.htm" >La pillola Fedra</a> 
+            <li><a HREF="faq_pillola5.htm" >Altri tipi di pillole</a> 
+          </ul>
+          
+        <li><b>I metodi chimici</b> 
+          <ul TYPE="DISC">
+              
+            <li><a HREF="faq_spermicidi.htm" >Gli spermicidi</a> 
+          </ul>
+          
+        <li><b><a HREF="faq_metodinat.htm" >I metodi naturali</a></b> 
+          <ul TYPE="DISC">
+              
+            <li><a HREF="faq_ogino.htm" >Ogino-Knauss (Metodo dell'Astinenza 
+              Periodica)</a> 
+              <ul TYPE="DISC">
+                  
+                <li><a HREF="faq_ogino.htm#metodo" >Calcolo del metodo 
+                  Ogino-Knauss</a> 
+              </ul>
+              
+            <li><a HREF="faq_billings.htm" >Billings (Metodo del 
+              Muco Cervicale)</a> 
+              <ul TYPE="DISC">
+                  
+                <li><a HREF="faq_billings.htm#metodo" >Calcolo del 
+                  metodo Billings</a> 
+              </ul>
+              
+            <li><a HREF="faq_tempbasale.htm" >Metodo della Temperatura 
+              Basale</a> 
+            <li><a HREF="faq_coitusinterruptus.htm" >Coitus Interruptus</a> 
+            <li><a HREF="faq_persona.htm" >Persona</a><br>
+          </ul>
+          
+        <li><b>I metodi irreversibili</b> 
+          <ul TYPE="DISC">
+              
+            <li><a HREF="faq_metodipermanenti.htm" >Introduzione</a> 
+            <li><a HREF="faq_vasectomia.htm" >Vasectomia</a> 
+            <li><a HREF="faq_vasectomiasenzabisturi.htm" >Vasectomia 
+              senza bisturi</a> 
+            <li><a HREF="faq_sterilizzazione.htm" >Sterilizzazione</a> 
+          </ul>
+          
+        <li><b>Altri metodi</b> 
+          <ul TYPE="DISC">
+              
+            <li><a HREF="faq_sostanzeiniettabili.htm" >Sostanze iniettabili</a> 
+            <li><a HREF="faq_impiantisottocutanei.htm" >Impianti 
+              sottocutanei</a> 
+            <li><a HREF="faq_metodoamenorrea.htm" >Metodo Amenorrea 
+              di Allattamento</a> 
+            <li><a HREF="faq_metodi.htm#anelli_vaginali" >Anelli 
+              vaginali</a> 
+          </ul>
+        </ul>
+        </DIV>
+<DIV ID="elTenParent" CLASS=parent>
+<H3><A HREF="#" onClick="expandIt('elTen'); return false"><IMG
+NAME="imEx" SRC="../immagini/triDown2.gif" WIDTH=12 HEIGHT=12 BORDER=0 ALT="Expand/Collapse Item"></A>
+La Gravidanza</H3>
+</DIV>         
+<DIV ID="elTenChild" CLASS=child> 
+  <p><b><a HREF="faq_gravidanza.htm" >La Gravidanza</a></b> </p>
+  </DIV>
+ <DIV ID="elElevenParent" CLASS=parent>
+<H3><A HREF="#" onClick="expandIt('elEleven'); return false"><IMG
+NAME="imEx" SRC="../immagini/triDown2.gif" WIDTH=12 HEIGHT=12 BORDER=0 ALT="Expand/Collapse Item"></A>
+Problemi (le disfunzioni sessuali)</H3>
+</DIV>           
+ <DIV ID="elElevenChild" CLASS=child>
+        <ul
+    TYPE="DISC">
+          
+        <li><b>Maschile</b> 
+          <ul TYPE="DISC">
+              
+            <li><a href="faq_problemi9.htm" >Impotenza</a> 
+              <ul
+            TYPE="DISC">
+                  
+                <li><a HREF="IIEF.htm" >Test di valutazione per la 
+                  disfuzione erettiva (IIEF)</a> 
+              </ul>
+              
+            <li><a HREF="faq_problemi3.htm" >Eiaculazione Precoce</a> 
+              <ul type=circle>
+                <li><a href="faq_problemi3.htm#tecniche">le tecniche</a> 
+              </ul> 
+              
+            <li><a HREF="faq_problemi4.htm" >Eiaculazione Retrograda</a> 
+            <li><a HREF="faq_problemi5.htm" >Eiaculazione Ritardata</a> 
+            <li><a HREF="faq_peyronie.htm" >Induratio Penis Plastica</a> 
+            <li><a HREF="faq_frenplas.htm" >La frenuloplastica</a> 
+            <li><a HREF="faq_problemi7.htm" >La sterilita' maschile</a> 
+          </ul>
+          
+        <li><b>Femminile</b> 
+          <ul TYPE="DISC">
+              
+            <li><a HREF="faq_problemi2.htm" >Anorgasmia</a> 
+            <li><a HREF="faq_problemi1.htm" >Vaginismo</a> 
+            <li><a HREF="faq_problemi6.htm" >Utero retroverso</a> 
+              &nbsp; 
+            <li><a HREF="faq_problemi10.htm" >Sindrome premestruale</a>&nbsp; 
+            <li><a HREF="faq_problemi8.htm" >Le abrasioni vaginali</a> 
+          </ul>
+        </ul>
+        </DIV>
+<DIV ID="elTwelveParent" CLASS=parent>
+<H3><A HREF="#" onClick="expandIt('elTwelve'); return false"><IMG
+NAME="imEx" SRC="../immagini/triDown2.gif" WIDTH=12 HEIGHT=12 BORDER=0 ALT="Expand/Collapse Item"></A>
+Malattie Sessualmente Trasmissibili</H3>
+</DIV>             
+<DIV ID="elTwelveChild" CLASS=child>
+<ul TYPE="DISC"><li><a HREF="faq_malattie.htm" >Introduzione</a> 
+        <li><a HREF="faq_malattie4.htm" >Gonorrea</a> 
+        <li><a HREF="faq_malattie8.htm" >Clamidia</a> 
+        <li><a HREF="faq_malattie9.htm" >Tricomoniasi</a> 
+        <li><a HREF="faq_malattie1.htm" >Sifilide</a> 
+        <li><a HREF="faq_malattie5.htm" >Infezione HIV e AIDS</a> 
+        <li><a HREF="faq_malattie10.htm" >Malattia Infiammatoria 
+          Pelvica</a> 
+        <li><a HREF="faq_malattie3.htm" >Herpes</a> 
+        <li><a HREF="faq_malattie11.htm" >Epatite B</a> 
+        <li><a HREF="faq_malattie12.htm" >Epatite C</a> 
+        <li><a HREF="faq_malattie13.htm" >Virus Papilloma (Verruche 
+          Genitali)</a> 
+        <li><a HREF="faq_malattie2.htm" >Piattole pubiche</a> 
+        <li><a HREF="faq_malattie6.htm" >Uretrite aspecifica</a> 
+        <li><a href="faq_candida.htm" >Candida</a> 
+        <li><a href="faq_malattie14.htm">Infezioni Genitali</a> 
+        <li><a HREF="faq_malattie7.htm" >Altre malattie</a> 
+        <li><a HREF="faq_malattieprevenzione.htm" >Prevenzione (Sesso 
+          più sicuro)</a> 
+      </ul>
+        </DIV>
+<DIV ID="elThirteenParent" CLASS=parent>
+<H3><A HREF="#" onClick="expandIt('elThirteen'); return false"><IMG
+NAME="imEx" SRC="../immagini/triDown2.gif" WIDTH=12 HEIGHT=12 BORDER=0 ALT="Expand/Collapse Item"></A>
+Altre Malattie</H3>
+</DIV>          
+<DIV ID="elThirteenChild" CLASS=child>
+        <ul>
+        <li><b><a href="faq_cistite.htm">Cistite</a></b> 
+          <ul type="DISC">
+            <li><a href="faq_cist_cure.htm" >Cure</a> 
+          </ul>
+        <li><a href="faq_prostatite.htm" ><b>Prostatite</b></a> 
+        <li><a href="faq_mononucleosi.htm"><b>Mononucleosi</b></a> 
+        <li><a href="faq_endo.htm"><b>Endometriosi </b></a> 
+      </ul>  
+        
+</DIV>
+<DIV ID="elFourteenParent" CLASS=parent>
+<H3><A HREF="#" onClick="expandIt('elFourteen'); return false"><IMG
+NAME="imEx" SRC="../immagini/triDown2.gif" WIDTH=12 HEIGHT=12 BORDER=0 ALT="Expand/Collapse Item"></A>
+Identità Sessuale</H3>
+</DIV>             
+<DIV ID="elFourteenChild" CLASS=child>
+<ul TYPE="DISC"><li> <b><a href="faq_idsex_ado.htm">Identit&agrave; sessuale nell'adolescenza</a></b> 
+        <li><b> Omossesualità</b> 
+          <ul TYPE="DISC">
+              
+            <li><a HREF="faq_omosx_intro.htm" >Introduzione</a> 
+            <li><a HREF="faq_omosexq.htm" >Un questionario</a> 
+            <li><a href="faq_omosex_causorm.htm" >Cause ormonali 
+              ?</a> 
+          </ul>
+          
+        <li><a href="faq_bisessualita.htm" ><b>Bisessualità</b> </a> 
+      </ul>
+        
+</DIV>
+<DIV ID="elFiveteenParent" CLASS=parent>
+<H3><A HREF="#" onClick="expandIt('elFiveteen'); return false"><IMG
+NAME="imEx" SRC="../immagini/triDown2.gif" WIDTH=12 HEIGHT=12 BORDER=0 ALT="Expand/Collapse Item"></A>
+Sesso estremo</H3>
+</DIV>       
+<DIV ID="elFiveteenChild" CLASS=child>
+<ul><li> <a href="faq_bdsm.htm" >BDSM</a> 
+        <li><a href="faq_spank.htm">Lo Spanking</a> 
+      </ul>
+             
+</DIV>
+<DIV ID="elSixteenParent" CLASS=parent>
+<H3><A HREF="#" onClick="expandIt('elSixteen'); return false"><IMG
+NAME="imEx" SRC="../immagini/triDown2.gif" WIDTH=12 HEIGHT=12 BORDER=0 ALT="Expand/Collapse Item"></A>
+Perversioni Sessuali</H3>
+</DIV>            
+ <DIV ID="elSixteenChild" CLASS=child>
+<ul type="cyrcle"><li><a href="faq_feticismo.htm">Feticismo</a></ul>
+</DIV>
+<DIV ID="elSeventeenParent" CLASS=parent>
+<H3><A HREF="#" onClick="expandIt('elSeventeen'); return false"><IMG
+NAME="imEx" SRC="../immagini/triDown2.gif" WIDTH=12 HEIGHT=12 BORDER=0 ALT="Expand/Collapse Item"></A>
+Gli accessori</H3>
+</DIV>            
+<DIV ID="elSeventeenChild" CLASS=child>
+<ul type="cyrcle"><li><a href="faq_cinture.htm">Le cinture di castit&agrave;</a></ul>
+</DIV>
+<DIV ID="elEighteenParent" CLASS=parent>
+<H3><A HREF="#" onClick="expandIt('elEighteen'); return false"><IMG
+NAME="imEx" SRC="../immagini/triDown2.gif" WIDTH=12 HEIGHT=12 BORDER=0 ALT="Expand/Collapse Item"></A>
+Le domande ricorrenti</H3>
+</DIV>            
+<DIV ID="elEighteenChild" CLASS=child>
+<ul type="cyrcle"><li><a HREF="faq_domande2.htm" >Le dimensioni del pene</a> 
+          <ul TYPE="DISC">
+            <li><a href="faq_mispen.htm" >La Tabella del dott. Eduardo 
+              A. Gomez de Diego</a> (Tratto da <a href="http://www.69pass.it">69Pass</a>) 
+            <li><a href="faq_mispen1.htm" >La Tabella del Kinsley 
+              Institute</a> (Tratto da <a href="http://www.69pass.it">69Pass)</a> 
+          </ul>
+        <li><a HREF="faq_domande3.htm" >La verginità maschile</a> 
+        <li><a HREF="faq_domande4.htm" >La sessualità al femminile</a> 
+        <li><a HREF="faq_domande5.htm" >Farmaci per erezione</a> 
+        <li><a HREF="faq_domande6.htm" >Varicocele</a> 
+        <li><a HREF="faq_domande7.htm" >La circoncisione femminile</a> 
+          <ul TYPE="DISC">
+            <li><a href="faq_clitoridectomia.htm" >La clitoridectomia</a> 
+            <li><a href="faq_domande13.htm">Le mutilazioni genitali femminili</a> 
+          </ul>
+        <li><a HREF="faq_domande8.htm" >Il punto G</a> 
+        <li><a href="faq_domande14.htm">Dove si trova la clitoride?</a> 
+        <li><a HREF="faq_domande9.htm" >Il glande e la circoncisione</a> 
+        <li><a href="faq_domande12.htm">La fimosi congenita</a> 
+        <li><a HREF="faq_domande10.htm" >Le dimensioni della vagina</a> 
+        <li><a HREF="faq_domande11.htm" >La sindrome premestruale</a> 
+        <li><a href="faq_domande15.htm">Mini-F.A.Q. sull'uso della pillola</a> 
+      </ul>
+</DIV>
+<DIV ID="elNineteenParent" CLASS=parent>
+<H3><A HREF="#" onClick="expandIt('elNineteen'); return false"><IMG
+NAME="imEx" SRC="../immagini/triDown2.gif" WIDTH=12 HEIGHT=12 BORDER=0 ALT="Expand/Collapse Item"></A>
+La vita vissuta (i racconti del newsgroup ISD)</H3>
+</DIV>             
+<DIV ID="elNineteenChild" CLASS=child>
+<ul TYPE="DISC">
+          <li><b>La prima volta</b> 
+          <ul TYPE="DISC">
+              
+            <li><a HREF="faq_tales1.htm#msg1" >Primo messaggio</a> 
+          </ul>
+          
+        <li><b>I luoghi insoliti</b> 
+          <ul TYPE="DISC">
+              
+            <li><a HREF="faq_tales2.htm#msg1" >Primo messaggio</a> 
+            <li><a HREF="faq_tales2.htm#msg2" >Secondo messaggio</a> 
+          </ul>
+          
+        <li><b>I rapporti incompleti</b> 
+          <ul TYPE="DISC">
+              
+            <li><a HREF="faq_tales3.htm" >Primo messaggio</a> 
+          </ul>
+          
+        <li><b>La vasectomia</b> 
+          <ul TYPE="DISC">
+              
+            <li><a HREF="faq_tales4.htm" >Primo messaggio</a> 
+          </ul>
+          
+        <li><b>Induratio Penis Plastica</b> 
+          <ul TYPE="DISC">
+              
+            <li><a HREF="faq_tales5.htm" >Primo messaggio</a> 
+          </ul>
+          
+        <li><strong>I metodi anticoncezionali</strong> 
+          <ul
+        TYPE="DISC">
+              
+            <li><a HREF="faq_tales6.htm#msg1" >Primo messaggio</a> 
+          </ul>
+          
+        <li><strong>Il sesso orale</strong> 
+          <ul>
+              
+            <li><a href="faq_tales7.htm">Primo messaggio</a></li>
+              
+            <li><a href="faq_tales10.htm">Secondo messaggio</a></li>
+            </ul>
+          
+        <li><strong>Il bacio</strong> 
+          <ul>
+              
+            <li><a href="faq_tales8.htm">Primo messaggio</a></li>
+              
+            <li><a href="faq_tales9.htm">Secondo messaggio</a></li>
+            </ul>
+          
+        </ul>
+        
+      </DIV>
+  <DIV ID="elTwentyParent" CLASS=parent>
+<H3><A HREF="#" onClick="expandIt('elTwenty'); return false"><IMG
+NAME="imEx" SRC="../immagini/triDown2.gif" WIDTH=12 HEIGHT=12 BORDER=0 ALT="Expand/Collapse Item"></A>
+La legislazione</H3>
+</DIV>          
+<DIV ID="elTwentyChild" CLASS=child>
+<ul type="disc"><li><a HREF="l269.htm" >Legge 3 agosto 1998, n. 269</a>: 
+          contro lo sfruttamento dei minori 
+        <li><a HREF="l66_97.htm" >Legge 15 febbraio 1997, n.66</a>: 
+          norme sulla violenza sessuale 
+        <li><a href="l194.htm" >Legge 22 maggio 1978, n.194</a>: 
+          norme per la tutela sociale della maternità e sull'interruzione volontaria 
+          della gravidanza 
+        <li><a href="l75_58.htm">Legge 20 febbraio 1958, n.75:</a> abolizione 
+          della regolamentazione della prostituzione e lotta contro lo sfruttamento 
+          della prostituzione altrui (Legge Merlin) 
+        <li><a href="cod_pen.htm">Articoli del Codice Penale</a> 
+      </ul>  
+</DIV>
+<DIV ID="elExpParent" CLASS=other> <A HREF="#" onClick="expandAll(true); return false"><IMG
+NAME="imEx" SRC="../immagini/triDown2.gif" WIDTH=12 HEIGHT=12 BORDER=0 ALT="Expand/Collapse All"></A> 
+  <b>Mostra/Nascondi tutti</b></DIV>
+
+<p> 
+  <SCRIPT LANGUAGE="JavaScript1.2">
+<!--
+if(!ver4)document.write("</BLOCKQUOTE>");
+//-->
+</SCRIPT>
+  <!-- v.2 --> 
+  <SCRIPT LANGUAGE="JavaScript1.2">
+<!--
+if (NS4) {
+firstEl="elOneParent";
+firstInd=getIndex(firstEl);
+document.layers[firstInd].pageY-=10;
+showAll();
+arrange();
+}else{elExpParent.style.marginTop=-10}
+//-->
+</SCRIPT>
+</p>
+<p>
+<table CELLSPACING="0" CELLPADDING="5" WIDTH="100%">
+  <tr> 
+    <td VALIGN="top" ALIGN="left" BGCOLOR="#C0C0C0"><a
+    HREF="../info/isdabout.htm#copyright" >Copyright</a> ©1999 ISD 
+      Online. Ultimo aggiornamento : 21marzo 2001.</td>
+    <td VALIGN="top" ALIGN="right" BGCOLOR="#E0E0E0">Torna alla <a
+    HREF="../index.htm" >pagina principale</a></td>
+  </tr>
+</table>
+
+<p align="right"><a href="http://validator.w3.org/check?uri=http%3A//isd.olografix.org/faq/faq.htm"><img src="../immagini/valid-html401.gif" width="88" height="31" border="0" alt="Valid HTML 4.01!"></a> 
+  <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://isd.olografix.org/faq/faq.htm"><img src="../immagini/vcss.gif" width="88" height="31" alt="Valid CSS!" border="0"></a> 
+</p>
+
+</body>
+</html>
